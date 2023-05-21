@@ -11,8 +11,8 @@ composer.callbackQuery("helper", async (ctx) => {
         "\n\n<b>Powered by @MalluTorentzTG</b>",
       {
         reply_markup: new InlineKeyboard()
-          .text("Add me to your channel", "add_to_channel")
-          .text("Add me to your group", "add_to_group")
+          .text("Channel Settings", "add_to_channel")
+          .text("Group Settings", "add_to_group")
           .row()
           .text(
             "🗃 Main Menu 🗃",

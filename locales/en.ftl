@@ -7,8 +7,6 @@ start-msg = 👋 Welcome {$user}! 👋
 help = <b>Usage instructions.</b>
     
     Add me to your channel as administrator, with "add users" permission, and forward me a message from that chat to set me up!
-    
-    <b>Powered by @MalluTorentzTG</b>
 
 usage-help = ⚙ Settings
 

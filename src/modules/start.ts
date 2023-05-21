@@ -21,7 +21,7 @@ composer
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
-        .url(ctx.t("🎞 Movies"), "https://t.me/MalluTorentGroup")
+        .url(ctx.t("🎞 Movies"), "https://t.me/MalluTorentGroup").row()
         .url(ctx.t("Premium Acceptor 💎"), "https://t.me/Chiyaan_Dhruv"),
       disable_web_page_preview: true,
     });
@@ -35,7 +35,7 @@ composer.callbackQuery("mainMenu", async (ctx) => {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
-        .url(ctx.t("🎞 Movies"), "https://t.me/MalluTorentGroup")
+        .url(ctx.t("🎞 Movies"), "https://t.me/MalluTorentGroup").row()
         .url(ctx.t("Premium Acceptor 💎"), "https://t.me/Chiyaan_Dhruv"),
       disable_web_page_preview: true,
     },

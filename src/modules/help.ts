@@ -15,7 +15,7 @@ composer.callbackQuery("helper", async (ctx) => {
           .text("Group Settings", "add_to_group")
           .row()
           .text(
-            "🗃 Main Menu 🗃",
+            "Main Menu",
             "mainMenu",
           ),
         parse_mode: "HTML",

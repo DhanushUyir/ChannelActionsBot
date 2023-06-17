@@ -1,6 +1,6 @@
 start-msg = 👋 Welcome {$user}! 👋
 
-    🔰 @JoinApproverRoBot allows you to <b>automatically accept join requests</b> to your Telegram channel with detailed statistics on the performance of your channels! 
+    🔰 @MalluPremiumBot allows you to <b>automatically accept join requests</b> to your Telegram channel with detailed statistics on the performance of your channels! 
 
     💭 Add me to you channel with the <b>only permission</b> of <b>invite users</b> and forward me a message from that channel !
 
